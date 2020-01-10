@@ -18,7 +18,7 @@ def main():
 def generate_powers_of_two(decimal_input):
     current_power = 1
     result = []
-    while current_power < decimal_input:
+    while current_power <= decimal_input:
        result.insert(0, current_power)
        current_power = current_power * 2
     return result
